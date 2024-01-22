@@ -1,0 +1,36 @@
+.Main_section{
+    background-image: url('../images/section_bg\ 1.png');
+    text-align: center;
+    max-width: auto;
+    height: 450px;
+}
+.main_h1{
+    padding: 30px ;
+    color: #4E9F0D;
+    font-size: 36px;
+    font-weight: 700;
+}
+.about_product1{
+
+    width: 1400px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+    padding-bottom: 50px;
+}
+.about_product2{
+    width: 1400px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+}
+@media only screen and (max-width:1366px) {
+    .about_product1{
+        width: 1070px;
+    }
+    .about_product2{
+        width: 1070px;
+    }
+}

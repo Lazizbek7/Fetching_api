@@ -107,3 +107,58 @@ ul li a:hover{
         padding-left: 780px;
     }
 }
+@media only screen and (max-width:1150px) {
+    iframe{
+        width: 900px; 
+        margin: 0 auto;
+        margin-left: 80px;
+
+     }
+     .footer{
+        max-width: 900px;
+        margin: 0 auto;
+    
+    }
+    .logo_footer_1{
+        margin-left: 0px;
+
+    }
+    .footer_contacts{
+        margin-left: 100px;
+    }
+    .footer_number{
+        padding-left: 780px;
+    }
+    ul li {
+        padding-left: 10px;
+    
+    }
+    .logo_footer_1{
+        display: none;
+    }
+
+
+}
+@media only screen and (max-width:1150px) {
+    iframe{
+        width: 900px; 
+        margin: 0 auto;
+        margin-left: 80px;
+
+     }
+     .footer{
+        max-width: 900px;
+        margin: 0 auto;
+    
+    }
+    .logo_footer_1{
+        margin-left: 0px;
+
+    }
+    ul li {
+        display: none;
+    
+    }
+
+
+}

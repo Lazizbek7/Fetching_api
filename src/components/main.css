@@ -39,6 +39,15 @@
         width: 1070px;
     }
 }
+@media only screen and (max-width:1150px) {
+    .about_product1{
+        width: 970px;
+    }
+    .about_product2{
+        width: 970px;
+        
+    }
+}
 .line{
     border: 1px solid #4E9F0D;
     width: 300px;

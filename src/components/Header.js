@@ -1,6 +1,7 @@
 import "./header.css"
 function Header() {
   return (
+    <div className="all_header">
     <div>
       <header>
         <nav>
@@ -29,7 +30,7 @@ function Header() {
           <button className="btn1">14 500</button>
         </div>
       </header>
-    </div>
+    </div></div>
   );
 }
 export default Header;

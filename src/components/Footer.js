@@ -1,6 +1,7 @@
 import "./footer.css"
 function Footer() {
     return(
+        <div className="all_footer1">
         <div className="all_footer" id="Контакты_part">
         <div className="footer">
             <h1 className="footer_h1">Наши филиалы</h1>
@@ -16,13 +17,14 @@ function Footer() {
                     <li><a href="#">Меню</a></li>
                     <li><a href="#">О нас</a></li>
                     <li><a href="#">Контакты</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Telegram Bot</a></li>
+                    <li><a  href="https://www.instagram.com/street.88/" target="_blank" >Instagram</a></li>
+                    <li><a href="https://www.facebook.com/street88ph/" target="_blank">Facebook</a></li>
+                    <li><a href="#" target="_blank">Telegram Bot</a></li>
                     
                 </ul>
                 <p className="Proweb">Сайт разработан в целях обучения © PROWEB 2019</p>
             </div>
+        </div>
         </div>
         </div>
     )

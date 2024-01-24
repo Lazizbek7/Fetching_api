@@ -1,8 +1,13 @@
-.Main_section{
+.all_main{
+    max-width: 100%;
     background-image: url('../images/section_bg\ 1.png');
     text-align: center;
     max-width: auto;
-    height: 450px;
+    height: 500px;
+}
+.Main_section{
+    max-width: 90%;
+    margin: 0 auto;
 }
 .main_h1{
     padding: 30px ;
@@ -33,4 +38,11 @@
     .about_product2{
         width: 1070px;
     }
+}
+.line{
+    border: 1px solid #4E9F0D;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
